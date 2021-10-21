@@ -1,0 +1,24 @@
+-e ./src/innolla
+
+django==2.2
+django-cors-headers==3.5.0
+django-graphql-jwt==0.3.1
+django-filter==2.2.0
+django-health-check==3.10.2
+django-redis-sessions==0.6.1
+gunicorn==20.0.4
+graphene-django==2.15.0
+graphene-django-optimizer==0.7.1
+graphene-file-upload==1.2.2
+python-memcached==1.59
+redis==3.3.1
+pillow==8.0.1
+PyJWT==1.7.1
+pytz==2019.3
+six==1.13.0
+sqlparse==0.3.0
+whitenoise==5.0
+raven==6.10.0
+
+# psycopg2 version
+psycopg2==2.7.4
